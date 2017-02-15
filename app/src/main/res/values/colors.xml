@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">@color/mc_green_sea</color>
+    <color name="colorPrimaryDark">@color/colorPrimary</color>
+    <color name="colorAccent">@color/colorPrimary</color>
+
+    <!-- Elements colors -->
+    <color name="tabIndicatorColor">@color/mc_clouds</color>
+    <color name="tabTextColor">@color/green_sea_light</color>
+    <color name="tabSelectedTextColor">@color/mc_clouds</color>
+
+    <!-- Material colors -->
+    <!-- LIGHT -->
+    <color name="mc_turquoise">#1ABC9C</color>
+    <color name="mc_emerald">#2ECC71</color>
+    <color name="mc_peter_river">#3498DB</color>
+    <color name="mc_amethyst">#9B59B6</color>
+    <color name="mc_wet_asphalt">#34495E</color>
+    <color name="mc_sun_flower">#F1C40F</color>
+    <color name="mc_carrot">#E67E22</color>
+    <color name="mc_alizarin">#E74C3C</color>
+    <color name="mc_clouds">#ECF0F1</color>
+    <color name="mc_concrete">#95A5A6</color>
+    <!-- DARK -->
+    <color name="mc_green_sea">#16A085</color>
+    <color name="mc_nephritis">#27AE60</color>
+    <color name="mc_belize_hole">#2980B9</color>
+    <color name="mc_wisteria">#8E44AD</color>
+    <color name="mc_midnight_blue">#2C3E50</color>
+    <color name="mc_orange">#F39C12</color>
+    <color name="mc_pumpkin">#D35400</color>
+    <color name="mc_pomegranate">#C0392B</color>
+    <color name="mc_silver">#BDC3C7</color>
+    <color name="mc_asbestos">#7F8C8D</color>
+
+    <!-- Other colors -->
+    <color name="green_sea_light">#95D3C7</color>
+
 </resources>

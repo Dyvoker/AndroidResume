@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">AndroidResume</string>
+    <string name="app_name">Resume Tormozov Ivan</string>
+    <string name="about_me">About me</string>
+    <string name="experience">Experience</string>
 </resources>
