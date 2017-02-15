@@ -2,6 +2,7 @@ package com.dyvoker.androidresume;
 
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
+import android.support.v4.widget.NestedScrollView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import layout.AboutMeFragment;
@@ -19,6 +20,9 @@ public class MainActivity extends AppCompatActivity {
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabLayout);
         tabLayout.setupWithViewPager(viewPager);
+
+        NestedScrollView scrollView = (NestedScrollView) findViewById (R.id.nestedScrollView);
+        scrollView.setFillViewport(true);
     }
 
     private void setupViewPager(ViewPager viewPager) {
