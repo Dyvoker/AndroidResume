@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import com.dyvoker.androidresume.R;
 
 /**
- *
+ * "Experience" page
  */
 public class ExperienceFragment extends Fragment {
 

@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import com.dyvoker.androidresume.R;
 
 /**
- *
+ * "About me" page
  */
 public class AboutMeFragment extends Fragment {
 
