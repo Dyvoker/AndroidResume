@@ -4,7 +4,7 @@
     <color name="colorPrimaryDark">@color/colorPrimary</color>
     <color name="colorAccent">@color/colorPrimary</color>
     <color name="textColorPrimary">@color/mc_midnight_blue</color>
-    <color name="textColorSecondary">@color/mc_wet_asphalt</color>
+    <color name="textColorSecondary">@color/text_color_secondary</color>
     <color name="windowBackground">@color/mc_clouds</color>
     <color name="navigationBarColor">@color/colorPrimary</color>
 
@@ -39,5 +39,6 @@
 
     <!-- Other colors -->
     <color name="green_sea_light">#95D3C7</color>
+    <color name="text_color_secondary">#A5A8AA</color>
 
 </resources>

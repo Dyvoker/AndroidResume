@@ -1,6 +1,19 @@
 <resources>
     <string name="app_name">Resume Tormozov Ivan</string>
     <string name="title">Resume Tormozov Ivan</string>
+
+    <!-- Tabs title -->
     <string name="about_me">About me</string>
     <string name="experience">Experience</string>
+
+    <!-- "About me" fragment -->
+    <string name="personal_information">Personal information</string>
+    <string name="years">" years old"</string>
+    <string name="single">"Single"</string>
+    <string name="design">"Design"</string>
+    <string name="psychology">"Psychology"</string>
+    <string name="vocal">"Vocal"</string>
+
+    <string name="hobbies">Hobbies</string>
+
 </resources>
