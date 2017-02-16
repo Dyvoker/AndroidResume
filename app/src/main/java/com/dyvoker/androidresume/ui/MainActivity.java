@@ -1,4 +1,4 @@
-package ui;
+package com.dyvoker.androidresume.ui;
 
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;

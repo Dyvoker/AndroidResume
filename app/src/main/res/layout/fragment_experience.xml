@@ -1,10 +1,8 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="ui.ExperienceFragment"
     android:orientation="vertical"
     android:padding="@dimen/grid_size_half">
 
@@ -37,7 +35,7 @@
                         android:text="@string/education"
                         android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
 
-                    <ui.IconTextView
+                    <com.dyvoker.androidresume.ui.IconTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/educationDescription"
@@ -129,7 +127,7 @@
                         android:id="@+id/hobbiesText"
                         android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
 
-                    <ui.IconTextView
+                    <com.dyvoker.androidresume.ui.IconTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/skl_java7"
@@ -138,7 +136,7 @@
                         android:layout_marginTop="@dimen/grid_size"/>
 
 
-                    <ui.IconTextView
+                    <com.dyvoker.androidresume.ui.IconTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/skl_oop"
@@ -146,7 +144,7 @@
                         app:text="@string/skl_oop"
                         android:layout_marginTop="@dimen/grid_size_half"/>
 
-                    <ui.IconTextView
+                    <com.dyvoker.androidresume.ui.IconTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/skl_android_sdk"
@@ -154,7 +152,7 @@
                         app:text="@string/skl_android_sdk"
                         android:layout_marginTop="@dimen/grid_size_half"/>
 
-                    <ui.IconTextView
+                    <com.dyvoker.androidresume.ui.IconTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/skl_material_design"
@@ -162,7 +160,7 @@
                         app:text="@string/skl_material_design"
                         android:layout_marginTop="@dimen/grid_size_half"/>
 
-                    <ui.IconTextView
+                    <com.dyvoker.androidresume.ui.IconTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/skl_russian"
@@ -170,7 +168,7 @@
                         app:text="@string/skl_russian"
                         android:layout_marginTop="@dimen/grid_size_half"/>
 
-                    <ui.IconTextView
+                    <com.dyvoker.androidresume.ui.IconTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/skl_english"
@@ -178,7 +176,7 @@
                         app:text="@string/skl_english"
                         android:layout_marginTop="@dimen/grid_size_half"/>
 
-                    <ui.IconTextView
+                    <com.dyvoker.androidresume.ui.IconTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/skl_qt"
@@ -186,7 +184,7 @@
                         app:text="@string/skl_qt"
                         android:layout_marginTop="@dimen/grid_size_half"/>
 
-                    <ui.IconTextView
+                    <com.dyvoker.androidresume.ui.IconTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/skl_unity"
@@ -194,7 +192,7 @@
                         app:text="@string/skl_unity"
                         android:layout_marginTop="@dimen/grid_size_half"/>
 
-                    <ui.IconTextView
+                    <com.dyvoker.androidresume.ui.IconTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/skl_web"

@@ -1,11 +1,13 @@
-package ui;
+package com.dyvoker.androidresume.ui;
 
 import android.content.Context;
 import android.content.res.TypedArray;
+import android.graphics.drawable.Drawable;
+import android.support.v7.widget.AppCompatDrawableManager;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.dyvoker.androidresume.R;
@@ -14,7 +16,7 @@ import com.dyvoker.androidresume.R;
  * View for drawing icon with text
  */
 
-public class IconTextView extends LinearLayout {
+public class IconTextView extends FrameLayout {
 
     public IconTextView(Context context) {
         this(context, null);
@@ -33,7 +35,9 @@ public class IconTextView extends LinearLayout {
 
         TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.IconTextView, defStyleAttr, 0);
         try {
-            iconView.setImageDrawable(a.getDrawable(R.styleable.IconTextView_iconBeforeText));
+            AppCompatDrawableManager drawableManager = AppCompatDrawableManager.get();
+            Drawable icon = getDrawableFromXml(drawableManager, a, R.styleable.IconTextView_iconBeforeText);
+            iconView.setImageDrawable(icon);
             textView.setText(a.getResourceId(R.styleable.IconTextView_text, -1));
         }
         finally {
@@ -41,4 +45,8 @@ public class IconTextView extends LinearLayout {
         }
     }
 
+    private Drawable getDrawableFromXml(AppCompatDrawableManager drawableManager, TypedArray a, int styleableId) {
+        final int id = a.getResourceId(styleableId, -1);
+        return drawableManager.getDrawable(getContext(), id);
+    }
 }
