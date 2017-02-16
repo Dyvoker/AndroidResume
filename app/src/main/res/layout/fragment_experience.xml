@@ -40,7 +40,7 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/educationDescription"
                         app:iconBeforeText="@drawable/cake"
-                        app:text="@string/educationDescription"
+                        app:text="@string/education_description"
                         android:layout_marginTop="@dimen/grid_size"/>
 
                 </LinearLayout>

@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         TabsAdapter adapter = new TabsAdapter(getSupportFragmentManager());
         adapter.addFragment(new AboutMeFragment(), getString(R.string.about_me));
         adapter.addFragment(new ExperienceFragment(), getString(R.string.experience));
+        adapter.addFragment(new ProjectsFragment(), getString(R.string.projects));
         viewPager.setAdapter(adapter);
     }
 }

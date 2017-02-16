@@ -18,7 +18,7 @@
 
     <!-- "Experience" fragment -->
     <string name="education">Education</string>
-    <string name="educationDescription">educationDescription</string>
+    <string name="education_description">educationDescription</string>
 
     <string name="jobs">Jobs</string>
     <string name="connective_games_title">Connective Games LLC</string>
@@ -35,5 +35,14 @@
     <string name="skl_qt">Qt (C++)</string>
     <string name="skl_unity">Unity (C#)</string>
     <string name="skl_web">HTML5, CSS3</string>
+
+    <!-- "Projects" fragment -->
+    <string name="projects">Projects</string>
+    <string name="prj_android_resume">Android Resume</string>
+    <string name="prj_android_resume_desc">Android Resume Description</string>
+    <string name="prj_canvas_test">Canvas Test</string>
+    <string name="prj_canvas_test_desc">Canvas Test Description</string>
+    <string name="prj_mars_terraforming">Mars Terraforming</string>
+    <string name="prj_mars_terraforming_desc">Mars Terraforming Description</string>
 
 </resources>
