@@ -29,9 +29,9 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/personalText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/personalText"
                         android:text="@string/personal_information"
                         android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
 
@@ -42,16 +42,16 @@
                         android:layout_marginTop="@dimen/grid_size">
 
                         <ImageView
+                            android:id="@+id/cakeImageView"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:id="@+id/cakeImageView"
                             app:srcCompat="@drawable/cake"
                             android:layout_weight="0"/>
 
                         <TextView
+                            android:id="@+id/ageText"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:id="@+id/ageText"
                             android:layout_weight="0"
                             android:layout_gravity="center_vertical"
                             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
@@ -59,9 +59,9 @@
                             android:layout_marginStart="@dimen/grid_size_half"/>
 
                         <TextView
+                            android:id="@+id/yearsOldText"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:id="@+id/yearsOldText"
                             android:text="@string/years"
                             android:layout_weight="0"
                             android:layout_gravity="center_vertical"
@@ -70,9 +70,9 @@
                     </LinearLayout>
 
                     <com.dyvoker.androidresume.ui.IconTextView
+                        android:id="@+id/maritalStatus"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/maritalStatus"
                         app:iconBeforeText="@drawable/male_female"
                         app:text="@string/single"
                         android:layout_marginTop="@dimen/grid_size_half"/>
@@ -93,32 +93,32 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:text="@string/hobbies"
+                        android:id="@+id/hobbiesText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/hobbiesText"
+                        android:text="@string/hobbies"
                         android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
 
                     <com.dyvoker.androidresume.ui.IconTextView
+                        android:id="@+id/design"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/design"
                         app:iconBeforeText="@drawable/palette"
                         app:text="@string/design"
                         android:layout_marginTop="@dimen/grid_size"/>
 
                     <com.dyvoker.androidresume.ui.IconTextView
+                        android:id="@+id/psychology"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/psychology"
                         app:iconBeforeText="@drawable/face"
                         app:text="@string/psychology"
                         android:layout_marginTop="@dimen/grid_size_half"/>
 
                     <com.dyvoker.androidresume.ui.IconTextView
+                        android:id="@+id/vocal"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/vocal"
                         app:iconBeforeText="@drawable/microphone"
                         app:text="@string/vocal"
                         android:layout_marginTop="@dimen/grid_size_half"/>
@@ -139,26 +139,26 @@
                     android:layout_height="match_parent">
 
                     <TextView
+                        android:id="@+id/contactsText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/contactsText"
                         android:text="@string/contacts"
                         android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
 
                     <com.dyvoker.androidresume.ui.IconTextView
+                        android:id="@+id/mail"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/mail"
                         app:iconBeforeText="@drawable/email"
                         app:text="@string/mail"
                         android:layout_marginTop="@dimen/grid_size"/>
 
                     <com.dyvoker.androidresume.ui.IconTextView
+                        android:id="@+id/phone"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/phone"
                         app:iconBeforeText="@drawable/phone"
-                        app:text="@string/phone"
+                        app:text="@string/phone_number"
                         android:layout_marginTop="@dimen/grid_size_half"/>
 
                 </LinearLayout>

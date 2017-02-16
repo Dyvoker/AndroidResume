@@ -29,16 +29,16 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/educationText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/educationText"
                         android:text="@string/education"
                         android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
 
                     <com.dyvoker.androidresume.ui.IconTextView
+                        android:id="@+id/educationDescription"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/educationDescription"
                         app:iconBeforeText="@drawable/school"
                         app:text="@string/education_description"
                         android:layout_marginTop="@dimen/grid_size"/>
@@ -59,9 +59,9 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/jobsText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/jobsText"
                         android:text="@string/jobs"
                         android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
 
@@ -72,16 +72,16 @@
                         android:layout_marginTop="@dimen/grid_size">
 
                         <ImageView
+                            android:id="@+id/connectiveGamesImageView"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:id="@+id/connectiveGamesImageView"
                             app:srcCompat="@drawable/logo_connective_games"
                             android:layout_weight="0"/>
 
                         <TextView
+                            android:id="@+id/connectiveGamesTitleText"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:id="@+id/connectiveGamesTitleText"
                             android:text="@string/connective_games_title"
                             android:layout_weight="0"
                             android:layout_gravity="center_vertical"
@@ -92,18 +92,18 @@
                     </LinearLayout>
 
                     <TextView
+                        android:id="@+id/connectiveGamesDatesText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/connectiveGamesDatesText"
                         android:text="@string/connective_games_dates"
                         android:textAppearance="@style/TextAppearance.AppCompat.Small"
                         android:textColor="@color/textColorSecondary"
                         android:gravity="right"/>
 
                     <TextView
+                        android:id="@+id/cGJobDescriptionText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/cGJobDescriptionText"
                         android:text="@string/connective_games_job_description"
                         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                         android:layout_marginTop="@dimen/grid_size_half"/>
@@ -124,81 +124,81 @@
                     android:layout_height="wrap_content">
 
                     <TextView
-                        android:text="@string/skills"
+                        android:id="@+id/skillsText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/hobbiesText"
+                        android:text="@string/skills"
                         android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
 
                     <com.dyvoker.androidresume.ui.IconTextView
+                        android:id="@+id/skl_java7"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/skl_java7"
                         app:iconBeforeText="@drawable/coffee"
                         app:text="@string/skl_java7"
                         android:layout_marginTop="@dimen/grid_size"/>
 
 
                     <com.dyvoker.androidresume.ui.IconTextView
+                        android:id="@+id/skl_oop"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/skl_oop"
                         app:iconBeforeText="@drawable/lightbulb"
                         app:text="@string/skl_oop"
                         android:layout_marginTop="@dimen/grid_size_half"/>
 
                     <com.dyvoker.androidresume.ui.IconTextView
+                        android:id="@+id/skl_android_sdk"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/skl_android_sdk"
                         app:iconBeforeText="@drawable/android"
                         app:text="@string/skl_android_sdk"
                         android:layout_marginTop="@dimen/grid_size_half"/>
 
                     <com.dyvoker.androidresume.ui.IconTextView
+                        android:id="@+id/skl_material_design"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/skl_material_design"
                         app:iconBeforeText="@drawable/palette"
                         app:text="@string/skl_material_design"
                         android:layout_marginTop="@dimen/grid_size_half"/>
 
                     <com.dyvoker.androidresume.ui.IconTextView
+                        android:id="@+id/skl_russian"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/skl_russian"
                         app:iconBeforeText="@drawable/dictionary"
                         app:text="@string/skl_russian"
                         android:layout_marginTop="@dimen/grid_size_half"/>
 
                     <com.dyvoker.androidresume.ui.IconTextView
+                        android:id="@+id/skl_english"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/skl_english"
                         app:iconBeforeText="@drawable/dictionary"
                         app:text="@string/skl_english"
                         android:layout_marginTop="@dimen/grid_size_half"/>
 
                     <com.dyvoker.androidresume.ui.IconTextView
+                        android:id="@+id/skl_qt"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/skl_qt"
                         app:iconBeforeText="@drawable/logo_qt"
                         app:text="@string/skl_qt"
                         android:layout_marginTop="@dimen/grid_size_half"/>
 
                     <com.dyvoker.androidresume.ui.IconTextView
+                        android:id="@+id/skl_unity"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/skl_unity"
                         app:iconBeforeText="@drawable/logo_unity"
                         app:text="@string/skl_unity"
                         android:layout_marginTop="@dimen/grid_size_half"/>
 
                     <com.dyvoker.androidresume.ui.IconTextView
+                        android:id="@+id/skl_web"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/skl_web"
                         app:iconBeforeText="@drawable/web"
                         app:text="@string/skl_web"
                         android:layout_marginTop="@dimen/grid_size_half"/>

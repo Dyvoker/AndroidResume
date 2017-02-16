@@ -14,19 +14,19 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/projectName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/projectName"
             android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
 
         <TextView
+            android:id="@+id/projectDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/projectDescription"
             android:layout_weight="0"
             android:layout_gravity="center_vertical"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:layout_marginTop="@dimen/grid_size"/>
+            android:layout_marginTop="@dimen/grid_size"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
 
     </LinearLayout>
 </android.support.v7.widget.CardView>
