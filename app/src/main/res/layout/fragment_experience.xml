@@ -133,7 +133,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/skl_java7"
-                        app:iconBeforeText="@drawable/face"
+                        app:iconBeforeText="@drawable/coffee"
                         app:text="@string/skl_java7"
                         android:layout_marginTop="@dimen/grid_size"/>
 
@@ -142,7 +142,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/skl_oop"
-                        app:iconBeforeText="@drawable/face"
+                        app:iconBeforeText="@drawable/lightbulb"
                         app:text="@string/skl_oop"
                         android:layout_marginTop="@dimen/grid_size_half"/>
 
@@ -150,7 +150,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/skl_android_sdk"
-                        app:iconBeforeText="@drawable/face"
+                        app:iconBeforeText="@drawable/android"
                         app:text="@string/skl_android_sdk"
                         android:layout_marginTop="@dimen/grid_size_half"/>
 
@@ -158,7 +158,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/skl_material_design"
-                        app:iconBeforeText="@drawable/face"
+                        app:iconBeforeText="@drawable/palette"
                         app:text="@string/skl_material_design"
                         android:layout_marginTop="@dimen/grid_size_half"/>
 
@@ -166,7 +166,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/skl_russian"
-                        app:iconBeforeText="@drawable/face"
+                        app:iconBeforeText="@drawable/dictionary"
                         app:text="@string/skl_russian"
                         android:layout_marginTop="@dimen/grid_size_half"/>
 
@@ -174,7 +174,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/skl_english"
-                        app:iconBeforeText="@drawable/face"
+                        app:iconBeforeText="@drawable/dictionary"
                         app:text="@string/skl_english"
                         android:layout_marginTop="@dimen/grid_size_half"/>
 
@@ -182,7 +182,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/skl_qt"
-                        app:iconBeforeText="@drawable/face"
+                        app:iconBeforeText="@drawable/logo_qt"
                         app:text="@string/skl_qt"
                         android:layout_marginTop="@dimen/grid_size_half"/>
 
@@ -190,7 +190,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/skl_unity"
-                        app:iconBeforeText="@drawable/face"
+                        app:iconBeforeText="@drawable/logo_unity"
                         app:text="@string/skl_unity"
                         android:layout_marginTop="@dimen/grid_size_half"/>
 
@@ -198,7 +198,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/skl_web"
-                        app:iconBeforeText="@drawable/face"
+                        app:iconBeforeText="@drawable/web"
                         app:text="@string/skl_web"
                         android:layout_marginTop="@dimen/grid_size_half"/>
 

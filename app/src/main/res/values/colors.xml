@@ -9,6 +9,7 @@
     <color name="navigationBarColor">@color/colorPrimary</color>
 
     <!-- Elements colors -->
+    <color name="defaultIconColor">@color/mc_silver</color>
     <color name="tabIndicatorColor">@color/mc_clouds</color>
     <color name="tabTextColor">@color/green_sea_light</color>
     <color name="tabSelectedTextColor">@color/mc_clouds</color>
