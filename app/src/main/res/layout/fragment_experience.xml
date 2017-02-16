@@ -39,7 +39,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/educationDescription"
-                        app:iconBeforeText="@drawable/cake"
+                        app:iconBeforeText="@drawable/school"
                         app:text="@string/education_description"
                         android:layout_marginTop="@dimen/grid_size"/>
 
@@ -75,7 +75,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/connectiveGamesImageView"
-                            app:srcCompat="@drawable/cake"
+                            app:srcCompat="@drawable/logo_connective_games"
                             android:layout_weight="0"/>
 
                         <TextView
@@ -89,21 +89,24 @@
                             android:layout_marginLeft="@dimen/grid_size_half"
                             android:layout_marginStart="@dimen/grid_size_half"/>
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:id="@+id/connectiveGamesDatesText"
-                            android:text="@string/connective_games_dates"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
-
                     </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/connectiveGamesDatesText"
+                        android:text="@string/connective_games_dates"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textColor="@color/textColorSecondary"
+                        android:gravity="right"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/cGJobDescriptionText"
                         android:text="@string/connective_games_job_description"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_marginTop="@dimen/grid_size_half"/>
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
