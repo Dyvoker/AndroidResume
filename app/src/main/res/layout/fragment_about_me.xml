@@ -61,30 +61,13 @@
 
             </LinearLayout>
 
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="@dimen/grid_size">
-
-            <ImageView
-                android:layout_width="wrap_content"
+            <ui.IconTextView
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/maleFemaleImageView"
-                app:srcCompat="@drawable/male_female"
-                android:layout_weight="0"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/maritalStatusText"
-                android:text="@string/single"
-                android:layout_weight="0"
-                android:layout_gravity="center_vertical"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:layout_marginLeft="@dimen/grid_size_half"
-                android:layout_marginStart="@dimen/grid_size_half"/>
-            </LinearLayout>
+                android:id="@+id/maritalStatus"
+                app:iconBeforeText="@drawable/male_female"
+                app:text="@string/single"
+                android:layout_marginTop="@dimen/grid_size_half"/>
 
         </LinearLayout>
     </android.support.v7.widget.CardView>
@@ -108,80 +91,29 @@
                 android:id="@+id/hobbiesText"
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
 
-            <LinearLayout
-                android:orientation="horizontal"
+            <ui.IconTextView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="@dimen/grid_size">
+                android:layout_height="wrap_content"
+                android:id="@+id/design"
+                app:iconBeforeText="@drawable/palette"
+                app:text="@string/design"
+                android:layout_marginTop="@dimen/grid_size"/>
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/paletteImageView"
-                    app:srcCompat="@drawable/palette"
-                    android:layout_weight="0"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/designText"
-                    android:text="@string/design"
-                    android:layout_weight="0"
-                    android:layout_gravity="center_vertical"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                    android:layout_marginLeft="@dimen/grid_size_half"
-                    android:layout_marginStart="@dimen/grid_size_half"/>
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
+            <ui.IconTextView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="@dimen/grid_size">
+                android:layout_height="wrap_content"
+                android:id="@+id/psychology"
+                app:iconBeforeText="@drawable/face"
+                app:text="@string/psychology"
+                android:layout_marginTop="@dimen/grid_size_half"/>
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/faceImageView"
-                    app:srcCompat="@drawable/face"
-                    android:layout_weight="0"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/psychologyText"
-                    android:text="@string/psychology"
-                    android:layout_weight="0"
-                    android:layout_gravity="center_vertical"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                    android:layout_marginLeft="@dimen/grid_size_half"
-                    android:layout_marginStart="@dimen/grid_size_half"/>
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
+            <ui.IconTextView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="@dimen/grid_size">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/microphoneImageView"
-                    app:srcCompat="@drawable/microphone"
-                    android:layout_weight="0"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/vocalText"
-                    android:text="@string/vocal"
-                    android:layout_weight="0"
-                    android:layout_gravity="center_vertical"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                    android:layout_marginLeft="@dimen/grid_size_half"
-                    android:layout_marginStart="@dimen/grid_size_half"/>
-            </LinearLayout>
+                android:layout_height="wrap_content"
+                android:id="@+id/vocal"
+                app:iconBeforeText="@drawable/microphone"
+                app:text="@string/vocal"
+                android:layout_marginTop="@dimen/grid_size_half"/>
 
         </LinearLayout>
     </android.support.v7.widget.CardView>

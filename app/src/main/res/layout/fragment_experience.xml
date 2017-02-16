@@ -37,31 +37,13 @@
                         android:text="@string/education"
                         android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
 
-                    <LinearLayout
+                    <ui.IconTextView
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal"
-                        android:layout_marginTop="@dimen/grid_size">
-
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:id="@+id/educationImageView"
-                            app:srcCompat="@drawable/cake"
-                            android:layout_weight="0"/>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:id="@+id/educationDescriptionText"
-                            android:text="@string/educationDescription"
-                            android:layout_weight="0"
-                            android:layout_gravity="center_vertical"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                            android:layout_marginLeft="@dimen/grid_size_half"
-                            android:layout_marginStart="@dimen/grid_size_half"/>
-
-                    </LinearLayout>
+                        android:layout_height="wrap_content"
+                        android:id="@+id/educationDescription"
+                        app:iconBeforeText="@drawable/cake"
+                        app:text="@string/educationDescription"
+                        android:layout_marginTop="@dimen/grid_size"/>
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -152,7 +134,8 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/skl_java7"
                         app:iconBeforeText="@drawable/face"
-                        app:text="@string/skl_java7"/>
+                        app:text="@string/skl_java7"
+                        android:layout_marginTop="@dimen/grid_size"/>
 
 
                     <ui.IconTextView
@@ -160,56 +143,64 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/skl_oop"
                         app:iconBeforeText="@drawable/face"
-                        app:text="@string/skl_oop"/>
+                        app:text="@string/skl_oop"
+                        android:layout_marginTop="@dimen/grid_size_half"/>
 
                     <ui.IconTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/skl_android_sdk"
                         app:iconBeforeText="@drawable/face"
-                        app:text="@string/skl_android_sdk"/>
+                        app:text="@string/skl_android_sdk"
+                        android:layout_marginTop="@dimen/grid_size_half"/>
 
                     <ui.IconTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/skl_material_design"
                         app:iconBeforeText="@drawable/face"
-                        app:text="@string/skl_material_design"/>
+                        app:text="@string/skl_material_design"
+                        android:layout_marginTop="@dimen/grid_size_half"/>
 
                     <ui.IconTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/skl_russian"
                         app:iconBeforeText="@drawable/face"
-                        app:text="@string/skl_russian"/>
+                        app:text="@string/skl_russian"
+                        android:layout_marginTop="@dimen/grid_size_half"/>
 
                     <ui.IconTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/skl_english"
                         app:iconBeforeText="@drawable/face"
-                        app:text="@string/skl_english"/>
+                        app:text="@string/skl_english"
+                        android:layout_marginTop="@dimen/grid_size_half"/>
 
                     <ui.IconTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/skl_qt"
                         app:iconBeforeText="@drawable/face"
-                        app:text="@string/skl_qt"/>
+                        app:text="@string/skl_qt"
+                        android:layout_marginTop="@dimen/grid_size_half"/>
 
                     <ui.IconTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/skl_unity"
                         app:iconBeforeText="@drawable/face"
-                        app:text="@string/skl_unity"/>
+                        app:text="@string/skl_unity"
+                        android:layout_marginTop="@dimen/grid_size_half"/>
 
                     <ui.IconTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/skl_web"
                         app:iconBeforeText="@drawable/face"
-                        app:text="@string/skl_web"/>
+                        app:text="@string/skl_web"
+                        android:layout_marginTop="@dimen/grid_size_half"/>
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
