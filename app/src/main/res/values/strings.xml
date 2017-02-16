@@ -16,6 +16,10 @@
     <string name="psychology">"Psychology"</string>
     <string name="vocal">"Vocal"</string>
 
+    <string name="contacts">Contacts</string>
+    <string name="mail">dyvoker@gmail.com</string>
+    <string name="phone">Phone number only in my builds ;)</string>
+
     <!-- "Experience" fragment -->
     <string name="education">Education</string>
     <string name="education_description">educationDescription</string>

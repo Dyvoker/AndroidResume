@@ -6,22 +6,35 @@
     android:orientation="vertical"
     android:padding="@dimen/grid_size_half">
 
-    <com.dyvoker.androidresume.ui.ProjectView
+    <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:projectName="@string/prj_android_resume"
-        app:projectDescription="@string/prj_android_resume_desc"/>
+        android:layout_height="match_parent"
+        android:scrollbarStyle="insideOverlay">
 
-    <com.dyvoker.androidresume.ui.ProjectView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:projectName="@string/prj_canvas_test"
-        app:projectDescription="@string/prj_canvas_test_desc"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <com.dyvoker.androidresume.ui.ProjectView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:projectName="@string/prj_mars_terraforming"
-        app:projectDescription="@string/prj_mars_terraforming_desc"/>
+            <com.dyvoker.androidresume.ui.ProjectView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:projectName="@string/prj_android_resume"
+                app:projectDescription="@string/prj_android_resume_desc"/>
+
+            <com.dyvoker.androidresume.ui.ProjectView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:projectName="@string/prj_canvas_test"
+                app:projectDescription="@string/prj_canvas_test_desc"/>
+
+            <com.dyvoker.androidresume.ui.ProjectView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:projectName="@string/prj_mars_terraforming"
+                app:projectDescription="@string/prj_mars_terraforming_desc"/>
+
+            </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
 
 </LinearLayout>

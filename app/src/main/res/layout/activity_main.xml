@@ -14,7 +14,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:contentScrim="?attr/colorPrimary"
-            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+            app:layout_scrollFlags="scroll|enterAlwaysCollapsed">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -44,7 +44,7 @@
             android:id="@+id/title"
             android:layout_weight="1"
             android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
-            app:layout_scrollFlags="scroll|enterAlways"
+            app:layout_scrollFlags="enterAlways"
             android:gravity="center"
             />
 
@@ -53,7 +53,7 @@
             style="@style/TabLayoutStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:layout_scrollFlags="scroll|enterAlways" />
+            app:layout_scrollFlags="enterAlways" />
 
     </android.support.design.widget.AppBarLayout>
 
