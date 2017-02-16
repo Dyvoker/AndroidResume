@@ -10,10 +10,30 @@
     <string name="personal_information">Personal information</string>
     <string name="years">" years old"</string>
     <string name="single">"Single"</string>
+
+    <string name="hobbies">Hobbies</string>
     <string name="design">"Design"</string>
     <string name="psychology">"Psychology"</string>
     <string name="vocal">"Vocal"</string>
 
-    <string name="hobbies">Hobbies</string>
+    <!-- "Experience" fragment -->
+    <string name="education">Education</string>
+    <string name="educationDescription">educationDescription</string>
+
+    <string name="jobs">Jobs</string>
+    <string name="connective_games_title">Connective Games LLC</string>
+    <string name="connective_games_dates">10.2015&#8211;06.2016</string>
+    <string name="connective_games_job_description">Working on slots.. java..</string>
+
+    <string name="skills">Skills</string>
+    <string name="skl_java7">Java 7</string>
+    <string name="skl_oop">OOP</string>
+    <string name="skl_android_sdk">Android SDK and Support Library</string>
+    <string name="skl_material_design">Material Design (UI, UX)</string>
+    <string name="skl_russian">Russian (Native)</string>
+    <string name="skl_english">English (Pre-Intermediate)</string>
+    <string name="skl_qt">Qt (C++)</string>
+    <string name="skl_unity">Unity (C#)</string>
+    <string name="skl_web">HTML5, CSS3</string>
 
 </resources>

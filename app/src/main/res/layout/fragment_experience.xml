@@ -1,14 +1,220 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="layout.ExperienceFragment">
+    tools:context="ui.ExperienceFragment"
+    android:orientation="vertical"
+    android:padding="@dimen/grid_size_half">
 
-    <TextView
-        android:text="TextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView2"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarStyle="insideOverlay">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/grid_size_half"
+                app:contentPadding="@dimen/grid_size"
+                app:cardElevation="@dimen/card_view_elevation">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/educationText"
+                        android:text="@string/education"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/grid_size">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/educationImageView"
+                            app:srcCompat="@drawable/cake"
+                            android:layout_weight="0"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/educationDescriptionText"
+                            android:text="@string/educationDescription"
+                            android:layout_weight="0"
+                            android:layout_gravity="center_vertical"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                            android:layout_marginLeft="@dimen/grid_size_half"
+                            android:layout_marginStart="@dimen/grid_size_half"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/grid_size_half"
+                app:contentPadding="@dimen/grid_size"
+                app:cardElevation="@dimen/card_view_elevation">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/jobsText"
+                        android:text="@string/jobs"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/grid_size">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/connectiveGamesImageView"
+                            app:srcCompat="@drawable/cake"
+                            android:layout_weight="0"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/connectiveGamesTitleText"
+                            android:text="@string/connective_games_title"
+                            android:layout_weight="0"
+                            android:layout_gravity="center_vertical"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                            android:layout_marginLeft="@dimen/grid_size_half"
+                            android:layout_marginStart="@dimen/grid_size_half"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/connectiveGamesDatesText"
+                            android:text="@string/connective_games_dates"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cGJobDescriptionText"
+                        android:text="@string/connective_games_job_description"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/grid_size_half"
+                app:contentPadding="@dimen/grid_size"
+                app:cardElevation="@dimen/card_view_elevation">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="@string/hobbies"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/hobbiesText"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+
+                    <ui.IconTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/skl_java7"
+                        app:iconBeforeText="@drawable/face"
+                        app:text="@string/skl_java7"/>
+
+
+                    <ui.IconTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/skl_oop"
+                        app:iconBeforeText="@drawable/face"
+                        app:text="@string/skl_oop"/>
+
+                    <ui.IconTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/skl_android_sdk"
+                        app:iconBeforeText="@drawable/face"
+                        app:text="@string/skl_android_sdk"/>
+
+                    <ui.IconTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/skl_material_design"
+                        app:iconBeforeText="@drawable/face"
+                        app:text="@string/skl_material_design"/>
+
+                    <ui.IconTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/skl_russian"
+                        app:iconBeforeText="@drawable/face"
+                        app:text="@string/skl_russian"/>
+
+                    <ui.IconTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/skl_english"
+                        app:iconBeforeText="@drawable/face"
+                        app:text="@string/skl_english"/>
+
+                    <ui.IconTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/skl_qt"
+                        app:iconBeforeText="@drawable/face"
+                        app:text="@string/skl_qt"/>
+
+                    <ui.IconTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/skl_unity"
+                        app:iconBeforeText="@drawable/face"
+                        app:text="@string/skl_unity"/>
+
+                    <ui.IconTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/skl_web"
+                        app:iconBeforeText="@drawable/face"
+                        app:text="@string/skl_web"/>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>
