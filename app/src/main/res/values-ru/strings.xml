@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Тормозов Иван резюме</string>
+    <string name="about_me">Обо мне</string>
+    <string name="call_me_request">Вы действительно хотите позвонить мне?</string>
+    <string name="call_phone_perm_denied">Разрешение на звонки не активно!</string>
+    <string name="connective_games_job_description">Занимался разработкой серверной части игровых автоматов (слотов).</string>
+    <string name="contacts">Контакты</string>
+    <string name="design">Дизайн</string>
+    <string name="education">Образование</string>
+    <string name="education_rank">Бакалавр, Системы автоматизированного проектирования</string>
+    <string name="education_university">Томский Государственный Университет Систем Управления и Радиоэлектроники</string>
+    <string name="experience">Опыт</string>
+    <string name="hobbies">Хобби</string>
+    <string name="jobs">Места работы</string>
+    <string name="personal_information">Личная информация</string>
+    <string name="prj_android_resume_desc">Приложение в котором Вы сейчас находитесь :)</string>
+    <string name="prj_canvas_test_desc">Тестовый проект по работе с Canvas. Реализовано построение изометрической карты с разными типами блоков и объектов на них, выделение и перемещение объектов по карте.</string>
+    <string name="prj_go_to_git">Посмотреть исходники на GitHub</string>
+    <string name="prj_go_to_market">Перейти на Play Market</string>
+    <string name="prj_mars_terraforming_desc">Цель игры - сделать Марс пригодным для жизни. При разработке я получил опыт программирования на Qt(C++) с использованием ООП, повысил дизайнерские навыки.</string>
+    <string name="projects">Проекты</string>
+    <string name="psychology">Психология</string>
+    <string name="single">Холост</string>
+    <string name="skills">Навыки</string>
+    <string name="skl_oop">ООП</string>
+    <string name="title">Тормозов Иван резюме</string>
+    <string name="vocal">Вокал</string>
+    <string name="years">" года"</string>
+</resources>

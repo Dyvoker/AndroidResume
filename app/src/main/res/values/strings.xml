@@ -14,47 +14,47 @@
     <string name="single">Single</string>
 
     <string name="hobbies">Hobbies</string>
-    <string name="design">"Design"</string>
-    <string name="psychology">"Psychology"</string>
-    <string name="vocal">"Vocal"</string>
+    <string name="design">Design</string>
+    <string name="psychology">Psychology</string>
+    <string name="vocal">Vocal</string>
 
     <string name="contacts">Contacts</string>
-    <string name="mail">dyvoker@gmail.com</string>
-    <string name="phone_number">Phone number only in my builds ;)</string>
+    <string name="mail" translatable="false">dyvoker@gmail.com</string>
+    <string name="phone_number" translatable="false">Phone number only in my builds ;)</string>
 
     <!-- "Experience" fragment -->
     <string name="education">Education</string>
     <string name="education_university">Tomsk State University of Control Systems and Radioelectronics</string>
-    <string name="education_dates">2011 – 2015</string>
+    <string name="education_dates" translatable="false">2011 – 2015</string>
     <string name="education_rank">Bachelor of Engineering (B.Eng.), Computer-Aided Design</string>
 
     <string name="jobs">Jobs</string>
-    <string name="connective_games_title">Connective Games LLC</string>
-    <string name="connective_games_dates">10.2015 – 06.2016</string>
+    <string name="connective_games_title" translatable="false">Connective Games LLC</string>
+    <string name="connective_games_dates" translatable="false">10.2015 – 06.2016</string>
     <string name="connective_games_job_description">I engaged in the development of server-side slot machines.</string>
 
     <string name="skills">Skills</string>
-    <string name="skl_java7">Java 7</string>
+    <string name="skl_java7" translatable="false">Java 7</string>
     <string name="skl_oop">OOP</string>
-    <string name="skl_android_sdk">Android SDK and Support Library</string>
-    <string name="skl_material_design">Material Design (UI, UX)</string>
-    <string name="skl_russian">Russian (Native)</string>
-    <string name="skl_english">English (Pre-Intermediate)</string>
-    <string name="skl_qt">Qt (C++)</string>
-    <string name="skl_unity">Unity (C#)</string>
-    <string name="skl_web">HTML5, CSS3</string>
+    <string name="skl_android_sdk" translatable="false">Android SDK and Support Library</string>
+    <string name="skl_material_design" translatable="false">Material Design (UI, UX)</string>
+    <string name="skl_russian" translatable="false">Russian (Native)</string>
+    <string name="skl_english" translatable="false">English (Pre-Intermediate)</string>
+    <string name="skl_qt" translatable="false">Qt (C++)</string>
+    <string name="skl_unity" translatable="false">Unity (C#)</string>
+    <string name="skl_web" translatable="false">HTML5, CSS3</string>
 
     <!-- "Projects" fragment -->
     <string name="projects">Projects</string>
-    <string name="prj_android_resume">Android Resume</string>
+    <string name="prj_android_resume" translatable="false">Android Resume</string>
     <string name="prj_android_resume_desc">The application in which you are right now :)</string>
-    <string name="prj_android_resume_git">https://github.com/Dyvoker/AndroidResume</string>
-    <string name="prj_canvas_test">Canvas Test</string>
+    <string name="prj_android_resume_git" translatable="false">https://github.com/Dyvoker/AndroidResume</string>
+    <string name="prj_canvas_test" translatable="false">Canvas Test</string>
     <string name="prj_canvas_test_desc">Test project to work with Canvas. Implemented construction of isometric map with different types of blocks and objects on them, the selection and movement of objects on the map.</string>
-    <string name="prj_canvas_test_git">https://github.com/Dyvoker/CanvasTest</string>
-    <string name="prj_mars_terraforming">Mars Terraforming</string>
+    <string name="prj_canvas_test_git" translatable="false">https://github.com/Dyvoker/CanvasTest</string>
+    <string name="prj_mars_terraforming" translatable="false">Mars Terraforming</string>
     <string name="prj_mars_terraforming_desc">Goal of the game - to make Mars suitable for life. When I creating it I got experience of programming in Qt(C++) with OOP, raised design skills.</string>
-    <string name="prj_mars_terraforming_market">https://play.google.com/store/apps/details?id=com.dyvoker.marsTerraforming</string>
+    <string name="prj_mars_terraforming_market" translatable="false">https://play.google.com/store/apps/details?id=com.dyvoker.marsTerraforming</string>
     <string name="prj_go_to_git">View code on GitHub</string>
     <string name="prj_go_to_market">Go to Play Market</string>
 
