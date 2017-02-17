@@ -45,10 +45,15 @@
     <!-- "Projects" fragment -->
     <string name="projects">Projects</string>
     <string name="prj_android_resume">Android Resume</string>
-    <string name="prj_android_resume_desc">Android Resume Description</string>
+    <string name="prj_android_resume_desc">The application in which you are right now :)</string>
+    <string name="prj_android_resume_git">https://github.com/Dyvoker/AndroidResume</string>
     <string name="prj_canvas_test">Canvas Test</string>
-    <string name="prj_canvas_test_desc">Canvas Test Description</string>
+    <string name="prj_canvas_test_desc">Test project to work with Canvas. Implemented construction of isometric map with different types of blocks and objects on them, the selection and movement of objects on the map.</string>
+    <string name="prj_canvas_test_git">https://github.com/Dyvoker/CanvasTest</string>
     <string name="prj_mars_terraforming">Mars Terraforming</string>
-    <string name="prj_mars_terraforming_desc">Mars Terraforming Description</string>
+    <string name="prj_mars_terraforming_desc">Goal of the game - to make Mars suitable for life. When I creating it I got experience of programming in Qt(C++) with OOP, raised design skills.</string>
+    <string name="prj_mars_terraforming_market">https://play.google.com/store/apps/details?id=com.dyvoker.marsTerraforming</string>
+    <string name="prj_go_to_git">Go to GitHub</string>
+    <string name="prj_go_to_market">Go to Market</string>
 
 </resources>

@@ -20,19 +20,25 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:projectName="@string/prj_android_resume"
-                app:projectDescription="@string/prj_android_resume_desc"/>
+                app:projectDescription="@string/prj_android_resume_desc"
+                app:goToButtonText="@string/prj_go_to_git"
+                app:url="@string/prj_android_resume_git"/>
 
             <com.dyvoker.androidresume.ui.ProjectView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:projectName="@string/prj_canvas_test"
-                app:projectDescription="@string/prj_canvas_test_desc"/>
+                app:projectDescription="@string/prj_canvas_test_desc"
+                app:goToButtonText="@string/prj_go_to_git"
+                app:url="@string/prj_canvas_test_git"/>
 
             <com.dyvoker.androidresume.ui.ProjectView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:projectName="@string/prj_mars_terraforming"
-                app:projectDescription="@string/prj_mars_terraforming_desc"/>
+                app:projectDescription="@string/prj_mars_terraforming_desc"
+                app:goToButtonText="@string/prj_go_to_market"
+                app:url="@string/prj_mars_terraforming_market"/>
 
             </LinearLayout>
     </android.support.v4.widget.NestedScrollView>

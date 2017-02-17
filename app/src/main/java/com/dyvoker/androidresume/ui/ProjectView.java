@@ -1,11 +1,13 @@
 package com.dyvoker.androidresume.ui;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.TypedArray;
-import android.graphics.drawable.Drawable;
-import android.support.v7.widget.AppCompatDrawableManager;
+import android.net.Uri;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
+import android.view.View;
+import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
@@ -31,21 +33,26 @@ public class ProjectView extends FrameLayout {
         LayoutInflater.from(context).inflate(R.layout.layout_project, this, true);
         TextView projectName = (TextView) findViewById(R.id.projectName);
         TextView projectDescription = (TextView) findViewById(R.id.projectDescription);
+        Button goToButton = (Button) findViewById(R.id.goToButton);
 
-        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.ProjectView, defStyleAttr, 0);
+        final TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.ProjectView, defStyleAttr, 0);
         try {
-            //AppCompatDrawableManager drawableManager = AppCompatDrawableManager.get();
-            //Drawable image = getDrawableFromXml(drawableManager, a, R.styleable.IconTextView_iconBeforeText);
             projectName.setText(a.getResourceId(R.styleable.ProjectView_projectName, -1));
             projectDescription.setText(a.getResourceId(R.styleable.ProjectView_projectDescription, -1));
+            goToButton.setText(a.getResourceId(R.styleable.ProjectView_goToButtonText, -1));
+            final String url = a.getString(R.styleable.ProjectView_url);
+
+            goToButton.setOnClickListener(new OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(Intent.ACTION_VIEW);
+                    intent.setData(Uri.parse(url));
+                    getContext().startActivity(intent);
+                }
+            });
         }
         finally {
             a.recycle();
         }
-    }
-
-    private Drawable getDrawableFromXml(AppCompatDrawableManager drawableManager, TypedArray a, int styleableId) {
-        final int id = a.getResourceId(styleableId, -1);
-        return drawableManager.getDrawable(getContext(), id);
     }
 }
