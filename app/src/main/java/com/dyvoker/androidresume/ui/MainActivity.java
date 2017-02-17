@@ -22,11 +22,15 @@ import com.dyvoker.androidresume.TabsAdapter;
 public class MainActivity extends AppCompatActivity {
     private final int REQUEST_PHONE_CALL = 1;
     private CoordinatorLayout coordinatorLayout;
+    private FloatingActionButton callMeButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        coordinatorLayout = (CoordinatorLayout) findViewById(R.id.coordinatorLayout);
+        callMeButton = (FloatingActionButton) findViewById(R.id.callMeButton);
 
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewPager);
         setupViewPager(viewPager);
@@ -38,8 +42,7 @@ public class MainActivity extends AppCompatActivity {
         scrollView.setFillViewport(true);
 
         //Set up "Call me" button
-        coordinatorLayout = (CoordinatorLayout) findViewById(R.id.coordinatorLayout);
-        FloatingActionButton callMeButton = (FloatingActionButton) findViewById(R.id.callMeButton);
+
         callMeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -69,6 +72,22 @@ public class MainActivity extends AppCompatActivity {
         adapter.addFragment(new ExperienceFragment(), getString(R.string.experience));
         adapter.addFragment(new ProjectsFragment(), getString(R.string.projects));
         viewPager.setAdapter(adapter);
+        viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            @Override
+            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {}
+
+            @Override
+            public void onPageSelected(int position) {
+                if (position == 0) {
+                    callMeButton.show();
+                } else {
+                    callMeButton.hide();
+                }
+            }
+
+            @Override
+            public void onPageScrollStateChanged(int state) {}
+        });
     }
 
     @Override
