@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Resume Tormozov Ivan</string>
-    <string name="title">Resume Tormozov Ivan</string>
+    <string name="app_name">Tormozov Ivan Resume</string>
+    <string name="title">Tormozov Ivan Resume</string>
     <string name="call_me_request">Are You really want to call me?</string>
     <string name="call_phone_perm_denied">Permission for calls denied!</string>
 
@@ -24,12 +24,14 @@
 
     <!-- "Experience" fragment -->
     <string name="education">Education</string>
-    <string name="education_description">educationDescription</string>
+    <string name="education_university">Tomsk State University of Control Systems and Radioelectronics</string>
+    <string name="education_dates">2011 – 2015</string>
+    <string name="education_rank">Bachelor of Engineering (B.Eng.), Computer-Aided Design</string>
 
     <string name="jobs">Jobs</string>
     <string name="connective_games_title">Connective Games LLC</string>
-    <string name="connective_games_dates">10.2015&#8211;06.2016</string>
-    <string name="connective_games_job_description">Working on slots.. java..</string>
+    <string name="connective_games_dates">10.2015 – 06.2016</string>
+    <string name="connective_games_job_description">I engaged in the development of server-side slot machines.</string>
 
     <string name="skills">Skills</string>
     <string name="skl_java7">Java 7</string>
@@ -53,7 +55,7 @@
     <string name="prj_mars_terraforming">Mars Terraforming</string>
     <string name="prj_mars_terraforming_desc">Goal of the game - to make Mars suitable for life. When I creating it I got experience of programming in Qt(C++) with OOP, raised design skills.</string>
     <string name="prj_mars_terraforming_market">https://play.google.com/store/apps/details?id=com.dyvoker.marsTerraforming</string>
-    <string name="prj_go_to_git">Go to GitHub</string>
-    <string name="prj_go_to_market">Go to Market</string>
+    <string name="prj_go_to_git">View code on GitHub</string>
+    <string name="prj_go_to_market">Go to Play Market</string>
 
 </resources>

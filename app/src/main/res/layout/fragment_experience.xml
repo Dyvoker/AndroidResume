@@ -35,13 +35,52 @@
                         android:text="@string/education"
                         android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
 
-                    <com.dyvoker.androidresume.ui.IconTextView
-                        android:id="@+id/educationDescription"
+                    <LinearLayout
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/grid_size"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/educationUniversityImage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0"
+                            app:srcCompat="@drawable/school"
+                            android:tint="@color/mc_wet_asphalt"/>
+
+                        <TextView
+                            android:id="@+id/educationUniversityText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/grid_size_half"
+                            android:layout_marginStart="@dimen/grid_size_half"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                            android:text="@string/education_university"
+                            android:textColor="@color/mc_wet_asphalt"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/educationDatesText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        app:iconBeforeText="@drawable/school"
-                        app:text="@string/education_description"
-                        android:layout_marginTop="@dimen/grid_size"/>
+                        android:text="@string/education_dates"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textColor="@color/mc_wet_asphalt"
+                        android:gravity="right"/>
+
+                    <TextView
+                        android:id="@+id/educationRankText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/education_rank"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="@color/textColorSecondary"
+                        android:layout_marginTop="@dimen/grid_size_half"/>
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -76,7 +115,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             app:srcCompat="@drawable/logo_connective_games"
-                            android:layout_weight="0"/>
+                            android:layout_weight="0"
+                            android:tint="@color/mc_wet_asphalt"/>
 
                         <TextView
                             android:id="@+id/connectiveGamesTitleText"
@@ -87,7 +127,8 @@
                             android:layout_gravity="center_vertical"
                             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                             android:layout_marginLeft="@dimen/grid_size_half"
-                            android:layout_marginStart="@dimen/grid_size_half"/>
+                            android:layout_marginStart="@dimen/grid_size_half"
+                            android:textColor="@color/mc_wet_asphalt"/>
 
                     </LinearLayout>
 
@@ -97,7 +138,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/connective_games_dates"
                         android:textAppearance="@style/TextAppearance.AppCompat.Small"
-                        android:textColor="@color/textColorSecondary"
+                        android:textColor="@color/mc_wet_asphalt"
                         android:gravity="right"/>
 
                     <TextView
