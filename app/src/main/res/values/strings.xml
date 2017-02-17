@@ -3,6 +3,7 @@
     <string name="title">Tormozov Ivan Resume</string>
     <string name="call_me_request">Are You really want to call me?</string>
     <string name="call_phone_perm_denied">Permission for calls denied!</string>
+    <string name="call">CALL</string>
 
     <!-- Tabs title -->
     <string name="about_me">About me</string>

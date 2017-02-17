@@ -4,6 +4,7 @@
     <string name="about_me">Обо мне</string>
     <string name="call_me_request">Вы действительно хотите позвонить мне?</string>
     <string name="call_phone_perm_denied">Разрешение на звонки не активно!</string>
+    <string name="call">ЗВОНИТЬ</string>
     <string name="connective_games_job_description">Занимался разработкой серверной части игровых автоматов (слотов).</string>
     <string name="contacts">Контакты</string>
     <string name="design">Дизайн</string>

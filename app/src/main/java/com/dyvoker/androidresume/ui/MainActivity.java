@@ -42,13 +42,12 @@ public class MainActivity extends AppCompatActivity {
         scrollView.setFillViewport(true);
 
         //Set up "Call me" button
-
         callMeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Snackbar snackbar = Snackbar
                         .make(coordinatorLayout, R.string.call_me_request, Snackbar.LENGTH_LONG)
-                        .setAction("CALL", new View.OnClickListener() {
+                        .setAction(getString(R.string.call), new View.OnClickListener() {
                             @Override
                             public void onClick(View view) {
                                 if (ActivityCompat.checkSelfPermission(MainActivity.this, Manifest.permission.CALL_PHONE)
