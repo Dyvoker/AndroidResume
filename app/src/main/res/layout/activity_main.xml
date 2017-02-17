@@ -28,9 +28,9 @@
                 android:id="@+id/collapsingImage"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:scaleType="centerCrop"
+                android:scaleType="fitCenter"
                 android:fitsSystemWindows="true"
-                app:srcCompat="@drawable/starship"
+                app:srcCompat="@drawable/my_face"
                 app:layout_collapseMode="parallax"/>
 
             <android.support.v7.widget.Toolbar
