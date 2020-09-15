@@ -1,7 +1,7 @@
 # AndroidResume
 My resume for Adnroid platform.
 
-#Screenshots
+### Screenshots
 
 "About me" page
 
